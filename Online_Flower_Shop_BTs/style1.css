@@ -1,0 +1,32 @@
+.site_name{
+	
+	color:#1411ED;
+	font-family:arial;
+	font-size:50px;
+	margin-top:15px;
+	text-shadow: 2px 2px #0B67F5;
+	
+}
+.space{
+	
+	margin-left:10px;
+	
+}
+.top-bar{
+	
+	background-color:009999;
+    padding: 10px;
+	
+}
+
+.top-margin{
+	
+    margin-top:30px;
+	
+}
+#delivery_form{
+	
+	margin-top:100px;
+	width:600px;
+	
+}

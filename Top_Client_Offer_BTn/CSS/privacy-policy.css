@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.privacy-banner {
+    background-image: url(../Images/Privacy\ Policy\ bnner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0e4c8a8b;
+}
+
+.privacy-header {
+    padding: 140px 0 100px 0;
+}
+
+.privacy-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.privacy-text {
+    margin: 50px 0 0 0;
+}
+
+.privacy-text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.privacy-text ul li {
+    list-style: none;
+    text-align: left;
+}
+
+
+
+
+@media only screen and (max-width: 667px) {
+
+    .privacy-header {
+        padding: 50px 0 50px 0;
+    }
+
+    .privacy-header h1 {
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .privacy-header {
+        padding: 70px 0 70px 0;
+    }
+
+    .privacy-header h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

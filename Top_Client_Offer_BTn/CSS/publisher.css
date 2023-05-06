@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.publisher-banner {
+    background-image: url(../Images/Privacy\ Policy\ bnner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0e4c8a8b;
+}
+
+.publisher-header {
+    padding: 140px 0 100px 0;
+}
+
+.publisher-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+
+/* Resources section start  */
+.resources-main {
+    padding: 100px 0;
+}
+
+.resources-all {}
+
+.resources-main h2 {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 79px;
+    color: #121920;
+}
+
+.resources1 {}
+
+.resources1 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #27295F;
+}
+
+.resources-sub1 img {
+    background: rgba(255, 224, 226, 0.3);
+    border-radius: 8px;
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+
+.resources-sub2 img {
+    background: #F4F5F6;
+    border-radius: 8px;
+    padding: 24px 16px;
+}
+
+.resources-sub4 img {
+    background: rgba(255, 224, 226, 0.3);
+    border-radius: 8px;
+    padding: 24px 16px;
+}
+
+/* Tech section start */
+.tech {
+    background-image: url(../Images/publisher\ banner\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.tech1 {}
+
+.tech1 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 40px;
+    color: #F22B37;
+
+}
+
+.tech1 img {
+    object-fit: contain;
+}
+
+.tech1 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #03031A;
+}
+
+.tech2 {}
+
+.tech {}
+
+
+/* Payments start  */
+.payments {
+    background-image: url(../Images/Rectangle\ 86.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 100px 0 100px 0;
+
+}
+
+.payments h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 79px;
+    color: #121920;
+    margin: -60px 0 0 0;
+    text-align: center;
+
+}
+
+.payments-box {}
+
+.payments-box img {}
+
+
+
+
+
+@media only screen and (max-width: 667px) {
+    .publisher-header {
+        padding: 50px 0 50px 0;
+    }
+
+    .publisher-header h1 {
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    /* Resources section start  */
+    .resources-main {
+        padding: 30px 0;
+    }
+
+    .resources-main h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .resources-sub1 img {
+        padding: 15px 16px;
+    }
+
+    .resources-sub2 img {
+        padding: 15px 16px;
+    }
+
+    /* Tech section start */
+
+    .tech1 h3 {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+
+    }
+
+    .tech1 p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .tech2 img {
+        margin-top: 35px;
+    }
+
+    /* Payments start  */
+    .payments {
+        background-image: none;
+        padding: 20px 0 20px 0;
+
+    }
+
+    .payments-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .box3 {
+        display: flex;
+    }
+
+    .payments h1 {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 0px;
+        margin: 60px 0 0 0;
+    }
+
+    .payments-box img {
+        width: 160px;
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .publisher-header {
+        padding: 70px 0 70px 0;
+    }
+
+    .publisher-header h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    /* Resources section start  */
+    .resources-main {
+        padding: 100px 0;
+    }
+
+    .resources-main h2 {
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .resources-sub1 img {
+        padding: 15px 16px;
+    }
+
+    .resources-sub2 img {
+        padding: 15px 16px;
+    }
+
+    /* Tech section start */
+
+    .tech1 h3 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+
+    .tech1 p {
+        font-size: 17px;
+    }
+
+
+    /* Payments start  */
+    .payments {
+        background-image: url(../Images/Rectangle\ 86.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 50px 0 50px 0;
+
+    }
+
+    .payments h1 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 20px;
+        margin: 0px 0 0 0;
+    }
+
+    .payments-box img {
+        width: 160px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

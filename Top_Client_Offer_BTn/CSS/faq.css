@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faq-banner {
+    background-image: url(../Images/faqpng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0e4c8a8b;
+}
+
+.faq-header {
+    padding: 140px 0 100px 0;
+}
+
+.faq-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.faq-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.faq-header p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.faq-search input {
+    width: 400px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+    ;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    ;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.faq-search button {
+    background: red;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 27px;
+    border: 2px solid red;
+    margin: 0 0 0 10px;
+}
+
+/* accordion section */
+.accordion-start {
+    margin: 116px 0 0 0;
+}
+
+.accordion-start h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: red;
+    padding: 14px 28px;
+    border-radius: 8px;
+}
+
+.accordion-item {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFFFFF !important;
+
+}
+
+.accordion-button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #121920;
+    padding: 20px 0 20px 0px !important;
+}
+
+.accordion-body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #121920;
+    padding: 20px 0 20px 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+
+
+
+@media only screen and (max-width: 667px) {
+
+    .faq-header {
+        padding: 50px 0 50px 0;
+    }
+
+    .faq-header h1 {
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    .faq-header h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+
+
+    .faq-search input {
+        width: auto;
+        height: 48px;
+    }
+
+    .faq-search button {
+        padding: 10px 20px;
+        margin: 12px 0 0 0px;
+    }
+
+    /* accordion section */
+    .accordion-start {
+        margin: 50px 0 0 0;
+    }
+
+    .accordion-start h3 {
+        font-size: 20px;
+        padding: 14px 10px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .faq-header {
+        padding: 70px 0 70px 0;
+    }
+
+    .faq-header h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .faq-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    .faq-search input {
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: white;
+    }
+
+    .faq-search button {
+        margin: 0 0 0 5px;
+    }
+
+    /* accordion section */
+    .accordion-start {
+        margin: 116px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {}

@@ -1,0 +1,1572 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;800&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+
+/* ====== Common For All Pages CSS Start ====== */
+.common-banner {
+    background-image: url(../Images/newsfeed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 105px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 150px 0 180px 0;
+
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* ====== Common For All Pages CSS End ====== */
+.navbar-nav {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav-link {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    margin: 0 5px;
+    color: #121920 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+
+.sing-in a {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 10px 25px;
+    gap: 10px;
+    color: black !important;
+    border: 2px solid black;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 4px;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.sing-in a:hover {
+    background-color: red;
+    border: 2px solid red;
+    color: white !important;
+    transition: all 0.3s ease-in;
+}
+
+.sing-up a {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 10px 25px;
+    gap: 10px;
+    gap: 10px;
+    color: white !important;
+    text-decoration: none;
+    border: 2px solid red;
+    background: red;
+    border-radius: 8px;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.sing-up a:hover {
+    background-color: white;
+}
+
+.all-singUP:hover {
+    background-color: white;
+    color: black !important;
+}
+
+
+/* drop down */
+.simple-dropdawn {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    margin: 0 5px;
+    color: #121920 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    background-color: #00000000;
+    border: 0;
+}
+
+
+.dropbtn {
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: red;
+    color: white;
+    padding: 9px 15px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid red;
+    border-radius: 4px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: red;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e4100;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+
+
+/* ======== Banner ========= */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+
+}
+
+.banner h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 87px;
+    line-height: 110px;
+    letter-spacing: 0.001em;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.banner h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 68px;
+    color: #121920;
+}
+
+/* affiliate button start */
+.affiliate-button {
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.affiliate-button:hover {
+    background-color: #00000000;
+    border: 2px solid red;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.affiliate-button span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.3s;
+}
+
+.affiliate-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.affiliate-button:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.affiliate-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* affiliate button end */
+
+.buton-box {
+    margin: 50px 0;
+}
+
+/* adviser button start */
+.advertiser-button {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 20px;
+    width: 220px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.advertiser-button:hover {
+    background-color: #00000000;
+    border: 2px solid black;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.advertiser-button span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.3s;
+}
+
+.advertiser-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.advertiser-button:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+
+
+}
+
+.advertiser-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* adviser button end */
+
+
+
+/* ======= about ====== */
+.about h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 78px;
+    color: red;
+
+}
+
+.about p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+/* ======= how work ========= */
+.how-work-section {
+    margin: 150px 0 70px 0;
+}
+
+.how-head {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: red;
+}
+
+.how-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Counter start===== */
+.conter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter span {
+    min-width: 40px;
+}
+
+.fraud-analytics {
+    background-color: #ffffff;
+    box-shadow: rgb(255 0 0 / 33%) 1px 2px 15px;
+    border-radius: 100%;
+    padding: 18px 40px;
+    width: 166px;
+    height: 166px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fraud-analytics h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: red;
+    text-align: center !important;
+
+}
+
+.counter-box h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    text-align: center;
+    color: #121920;
+}
+
+.counter-box p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #121920;
+}
+
+/* ==== what make us different ==== */
+.card {
+    background: #F8EFEB !important;
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    border: 0 !important;
+    border-radius: 16px;
+    padding: 20px 0;
+    min-height: 450px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    color: #121920;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #121920;
+}
+
+.item1 {
+    background: #FAFAFA !important;
+}
+
+/*=========== tab start */
+.nav-tabs {
+    background: #000000;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: red !important;
+    border: 1px solid red !important;
+}
+
+.nav-tabs .nav-link {
+    margin: 0;
+    padding: 20px 21px !important;
+}
+
+.tab-content {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.001em;
+    color: #121920;
+}
+
+.tab-image {
+    margin: 3px 40px 0px 0;
+}
+
+
+/* ============= Partners slider start ========= */
+
+.slider-photo {
+    width: 120px !important;
+    height: 60px !important;
+    margin: 0px 37px !important;
+    object-fit: contain;
+    margin: 38px 58px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+
+
+
+/* JOin section */
+.join-section {
+    background-color: #000000;
+}
+
+.join-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 0;
+}
+
+.join-heading {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0px 50px 0;
+}
+
+.affiliate {
+    padding: 0 100px;
+}
+
+.affiliate h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.affiliate p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px 0 40px 0;
+}
+
+.affiliate button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #121920;
+    border: 1px solid white;
+    background: white;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.advertiser {
+    padding: 0 100px;
+}
+
+.advertiser h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.advertiser p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px 0 40px 0;
+}
+
+.advertiser button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+    background: red;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+/* join button1 start */
+.join-button1 {
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid red;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.join-button1:hover {
+    background-color: #00000000;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.join-button1 span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.3s;
+}
+
+.join-button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.join-button1:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.join-button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* affiliate button end */
+
+
+
+/* affiliate button start */
+.join-button {
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.join-button:hover {
+    background-color: #00000000;
+    border: 2px solid red;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.join-button span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.3s;
+}
+
+.join-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.join-button:hover span {
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.join-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* affiliate button end */
+
+
+
+
+/* Newsletter */
+.newsletter {
+    background-image: url(../Images/nueslater.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+    margin: 140px;
+    padding: 100px 0;
+}
+
+.newsletter h4 {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.newsletter p {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.newsletter input {
+    width: 400px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.newsletter button {
+    background: #121920;
+    border-radius: 10px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 27px;
+    border: 2px solid #121920;
+    margin: 0 0 0 10px;
+    transition: all 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #12192000;
+    color: black;
+}
+
+
+/* Footer */
+footer {
+    background: #000000;
+    backdrop-filter: blur(50px);
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {}
+
+.footer1 a {
+    color: white;
+}
+
+.footer1 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D2D2D2;
+    margin-top: 16px;
+}
+
+.footer-logo {
+    width: 353px;
+    height: 80px;
+}
+
+.fab {
+    font-size: 25px;
+    margin: 25px 25px 10px 0px;
+}
+
+.footer-link {}
+
+.footer-link h6 {}
+
+.footer-link a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #D2D2D2;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+/* footer bottom  */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 20px 0 0 0;
+    padding: 20px 0 0px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.trams-con {
+    text-align: right;
+}
+
+.trams-con a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #D2D2D2;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 667px) {
+    .logo {
+        width: 224px;
+        object-fit: cover;
+    }
+
+    .navbar-toggler {
+        background-color: white !important;
+    }
+
+    /* common banner */
+    .page-header h1 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        padding: 0px 0 60px 0;
+    }
+
+    /* ========banner======== */
+    .banner {
+        flex-wrap: wrap;
+        padding: 100px 0;
+
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    .banner h4 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .affiliate-button {
+        width: 90%;
+        margin: auto;
+        padding: 10px 20px;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .buton-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advertiser-button {
+        width: 90%;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        gap: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    /* ======= about ====== */
+    .about h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        color: red;
+    }
+
+    .about p {
+        font-size: 17px;
+        line-height: 25px;
+
+    }
+
+    /* ======= how work ========= */
+    .how-work-section {
+        margin: 80px 0 70px 0;
+
+    }
+
+    .how-head {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .how-section {
+        flex-wrap: wrap;
+    }
+
+    .how-mobile {
+        margin: auto;
+    }
+
+    .how-section img {
+        margin-top: 30px auto;
+    }
+
+
+    /* ====== Counter start ===== */
+    .conter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .fraud-analytics {
+        margin: 40px auto;
+    }
+
+    .fraud-analytics h4 {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 34px 0px;
+    }
+
+    .counter-box {
+        margin: 20px 0;
+    }
+
+    .counter-box h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .counter-box p {
+        font-size: 19px;
+        line-height: 20px;
+        text-transform: capitalize;
+    }
+
+    /* ======= how work ========= */
+    .how-work-section {
+        margin: 0px 0 70px 0;
+    }
+
+    .how-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* ===== slider ====== */
+    .partner-mobile {
+        margin: 0px 30px !important;
+    }
+
+    .slider-photo {
+        width: 100px !important;
+        height: 35px !important;
+        object-fit: contain;
+        margin: 0px 30px !important;
+    }
+
+
+    /* JOin section */
+    .join-main {
+        display: flex;
+        padding: 0 0 50px 0;
+        flex-wrap: wrap;
+    }
+
+    .join-heading {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 50px;
+        padding: 50px 0px 50px 0;
+    }
+
+    .affiliate {
+        padding: 0 20px;
+    }
+
+    .affiliate h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .affiliate p {
+        margin: 0px 0 40px 0;
+    }
+
+    .affiliate button {
+        margin-bottom: 30px;
+    }
+
+    .advertiser {
+        padding: 0 20px;
+        margin: 50px 0 0 0;
+    }
+
+    .advertiser h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .advertiser p {
+        text-align: center;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0px 0 40px 0;
+    }
+
+    .advertiser button {
+        margin-bottom: 20px;
+    }
+
+
+    /* Newsletter */
+    .newsletter-full {
+        background-color: red !important;
+    }
+
+
+    .newsletter {
+        margin: 0px;
+        padding: 30px 10px;
+    }
+
+    .newsletter h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .newsletter p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        height: 60px;
+        margin: 20px 0 20px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Edge */
+        color: white;
+    }
+
+    .newsletter button {
+        font-size: 18px;
+        padding: 15px 30px;
+        margin: 0 0 0 0px;
+    }
+
+
+    /* Footer */
+    .footer-main {
+        display: grid;
+        justify-items: center;
+    }
+
+    .footer1 {
+        text-align: center;
+    }
+
+
+    .footer-logo {
+        width: 353px;
+        height: 80px;
+    }
+
+    .fab {
+        font-size: 25px;
+        margin: 25px 15px 10px 0px;
+    }
+
+    .footer-link {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .footer-link h6 {}
+
+    .footer-link a {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+    }
+
+    .copy-write {
+        text-align: center;
+    }
+
+    .trams-con a {
+        display: block;
+        text-align: center;
+    }
+
+    .sing-inUP {
+        margin: 10px 0px 20px 0;
+    }
+
+    .sing-in a {
+        padding: 10px 20px;
+    }
+
+    .sing-up a {
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:991px) and (min-width:668px) {
+    .navbar-toggler {
+        background-color: white !important;
+    }
+
+    .nlr {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+
+    /* ====== Common For All Pages CSS Start ====== */
+    .common-banner {
+        background-image: url(../Images/newsfeed.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .page-header h1 {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 67px;
+        line-height: 105px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 150px 0 180px 0;
+
+    }
+
+
+    /* ====== Common For All Pages CSS End ====== */
+
+    .logo {
+        width: auto;
+        height: 50px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px !important;
+        line-height: 25px;
+        letter-spacing: 0.005em;
+        margin: 0 5px;
+        color: #121920 !important;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+
+    .sing-in a {
+        padding: 12px 24px;
+        gap: 10px;
+        color: black !important;
+        border: 2px solid black;
+        background: rgba(255, 0, 0, 0);
+        border-radius: 8px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .sing-up a {
+        padding: 12px 24px;
+        gap: 10px;
+        gap: 10px;
+        color: white !important;
+        text-decoration: none;
+        border: 2px solid red;
+        background: red;
+        border-radius: 8px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .sing-up a:hover {}
+
+    /* ======== Banner ========= */
+    .banner {
+        padding: 30px 0;
+
+    }
+
+    .banner h1 {
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 80px;
+    }
+
+    .banner h4 {
+        font-size: 30px;
+        line-height: 50px;
+        color: #121920;
+    }
+
+    .affiliate-button {
+        padding: 10px 25px;
+
+    }
+
+    .advertiser-button {
+        padding: 10px 25px;
+        gap: 10px;
+    }
+
+
+
+    /* ======= about ====== */
+    .about h2 {
+        font-size: 40px;
+        line-height: 50px;
+        color: red;
+
+    }
+
+    /* ======= how work ========= */
+    .how-work-section {
+        margin: 100px 0 70px 0;
+
+    }
+
+    .how-head {
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+
+    .how-section {}
+
+
+
+    /* ==== what make us differents ==== */
+    .card {
+        background: #F8EFEB !important;
+        backdrop-filter: blur(40px);
+        /* Note: backdrop-filter has minimal browser support */
+        border: 0 !important;
+        border-radius: 16px;
+        padding: 20px;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 39px;
+        color: #121920;
+        text-align: center;
+    }
+
+    .card-text {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #121920;
+    }
+
+    .item1 {
+        background: #FAFAFA !important;
+    }
+
+    /*=========== tab start */
+    .nav-tabs {
+        background: #000000;
+        border-radius: 8px;
+        color: white;
+        padding: 0px 0;
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: white !important;
+        background-color: red !important;
+        border: 1px solid red !important;
+    }
+
+    .nav-tabs .nav-link {
+        margin: 0;
+    }
+
+    .tab-content {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 50px;
+        letter-spacing: 0.001em;
+        color: #121920;
+    }
+
+    .tab-image {
+        margin: 10px 50px 10px 0;
+    }
+
+    /* Trusted Partner */
+    .trusted-partner h3 {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 28px;
+        color: #121920;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .trusted-partner img {
+        width: 130px;
+        height: 30px;
+        object-fit: cover;
+    }
+
+
+
+
+    /* JOin section */
+    .join-section {
+        background-color: #000000;
+    }
+
+    .join-main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 50px 0;
+    }
+
+    .join-heading {
+        font-size: 45px;
+        line-height: 55px;
+        padding: 100px 0px 50px 0;
+    }
+
+    .affiliate {
+        padding: 0 50px;
+    }
+
+    .affiliate h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .advertiser {
+        padding: 0 50px;
+    }
+
+    .advertiser h2 {
+        margin-top: 80px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    /* Newsletter */
+    .newsletter {
+        width: 100%;
+        margin: 20px 0px;
+        padding: 50px 20px;
+
+    }
+
+    .newsletter h4 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .newsletter input {
+        width: 350px;
+        height: 60px;
+        margin-top: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Edge */
+        color: white;
+    }
+
+    .newsletter button {
+        padding: 16px 20px;
+        margin: 0 0 0 7px;
+    }
+
+
+    /* Footer */
+    .footer-main {
+        flex-wrap: wrap;
+
+    }
+
+    .footer1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 300px;
+        height: 80px;
+    }
+
+    .fab {
+        font-size: 25px;
+        margin: 25px 25px 10px 0px;
+    }
+
+    .footer-link {
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .footer-link h6 {}
+
+    .footer-link a {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .trams-con a {
+        display: block;
+        text-align: center;
+    }
+
+    .sing-inUP {
+        margin: 10px 0px 20px 0;
+    }
+
+    .sing-in a {
+        padding: 10px 20px;
+    }
+
+    .sing-up a {
+        padding: 10px 20px;
+    }
+
+    .nlr {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+
+    /* ============= Partners slider start ========= */
+    .slider-photo {
+        width: 70px !important;
+        height: 30px !important;
+        object-fit: contain;
+        margin: 0px 37px !important;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+}

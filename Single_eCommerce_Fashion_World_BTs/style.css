@@ -1,0 +1,288 @@
+  #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }   
+
+  .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+		right:50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: transparent;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+   container{
+	   text-align:center;
+	   background-color:blue;
+   }
+       #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    
+
+.topmenu a
+{
+	float:left;
+	border:none;
+}
+   
+
+.list-group li{
+border:none;
+text-align:center;
+}
+container{
+	   text-align:center;
+	   background-color:blue;
+   }
+
+.spacetop
+{
+	
+	margin-top:15px;
+}
+hr{
+	text-align:left;
+	width:100%;
+	
+}
+h1{
+	text-align:center;
+}
+
+li{
+	text-align:cente;
+}
+p
+{
+	text-align:justify;
+     
+
+}
+
+.div{
+	background-color:white;
+	}
+*
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+body
+	{
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		background-color: white;
+		color: #000;
+		width: 100%;
+	}
+	
+#container
+	{
+		width: 1200px;
+		margin: 15px auto 0px auto;
+	}
+
+
+	
+#container
+	{
+		width: 1200px;
+		margin: 15px auto 0px auto;
+	}
+
+
+
+	
+#login-right
+	{
+		float: right;
+		width: 35%;
+	}
+
+#login-right h2
+	{
+		color: #fff;
+		text-shadow: 1px 1px 3px #000;
+		line-height: 50px;
+	}
+
+#login-right button
+	{
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+				border-radius: 5px;
+		border: 1px solid #888;
+		padding: 7px;
+		background-color: #dc4d38;
+		cursor: pointer;
+
+	}
+
+	
+	
+	
+	
+.login-margin
+	{
+		margin-top: 80px;
+	}
+
+	.btn-signin
+	{
+		width: 122px;
+		font-size: 18px;
+	}
+
+.btn-signup
+	{
+		width: 212px;
+		float: right;
+		margin-right: 55px;
+	}
+
+.short-pass
+	{
+		width: 230px;
+	}
+#login-right input
+	{
+		
+		font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+				border-radius: 5px;
+		border: 1px solid #888;
+		padding: 5px;
+		margin-bottom: 3px;
+		
+	}
+	
+
+#login-right p	
+	{
+	color: #fff;
+	text-shadow: 1px 1px 5px #000;
+	text-indent: 12px;
+	}
+	
+.login-margin
+	{
+		margin-top: 80px;
+	}
+.name
+	{
+	width: 170px;
+	}
+	
+.long
+	{
+	width: 356px;
+	}
+
+.margin-radio
+	{
+		margin-top: 5px;
+		margin-left: 80px;
+	}
+#login-left
+	{
+		float: left;
+		width: 64.6%;
+		height: 520px;
+	}
+	
+	
+#login-left p
+		{
+			color: #fff;
+			text-shadow: 1px 1px 5px #000;
+			font-size: 25px;
+			line-height: 35px;
+			text-align: center;
+		}
+		
+#login-left h1
+	{
+		color: #fff;
+		text-shadow: 1px 1px 3px #000;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+		margin-top: 130px;
+	}
+	
+#passwordsignup{
+width:147px;
+font-size:16px;
+border-radius:5px;
+padding:5px;
+}
+	
+
+	
+.clear
+	{
+		clear: both;
+	}
+
+
+.footer a i.fa {
+	font-size:18px;
+	padding:20px 7px;
+	color:gray;
+}
+.footer p{
+	font-size:18px;
+	padding:20px 7px;
+	color:#808080;
+}
