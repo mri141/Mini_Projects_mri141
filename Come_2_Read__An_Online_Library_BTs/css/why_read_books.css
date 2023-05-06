@@ -1,0 +1,64 @@
+.navbar-brand{
+	
+	margin-left:-100px;
+	
+}
+.nav-item{
+	
+	margin-left:20px;
+	
+}
+.intro-message{
+	
+	color:#0F9F70;
+	
+}
+p strong{
+	
+	font-size:20px;
+	color:#1A118B;
+	
+}
+.percent{
+	
+	font-size:25px;
+	color:#7EBEC5;
+	
+}
+h3{
+	
+	color:#7EBEC5;
+	
+}
+.intro-header{
+	
+	margin-top:100px;
+	
+}
+#first{
+	
+	width:1000px;
+	margin-left:200px;
+	
+}
+#left{
+	
+	margin-top:50px;
+	margin-left:100px;
+	width:450px;
+	text-align:center;
+	
+}
+#right{
+	
+	width:600px;
+	position:relative;
+	margin-left:550px;
+	margin-top:-80px;
+	
+}
+footer{
+	
+	margin-top:50px;
+	
+}
